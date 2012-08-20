@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7FDDE0315E2F41F007BD992 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7FDDE0215E2F41F007BD992 /* UIKit.framework */; };
+		E7FDDE0515E2F41F007BD992 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7FDDE0415E2F41F007BD992 /* Foundation.framework */; };
+		E7FDDE0715E2F41F007BD992 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7FDDE0615E2F41F007BD992 /* CoreGraphics.framework */; };
+		E7FDDE0D15E2F41F007BD992 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E7FDDE0B15E2F41F007BD992 /* InfoPlist.strings */; };
+		E7FDDE0F15E2F41F007BD992 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FDDE0E15E2F41F007BD992 /* main.m */; };
+		E7FDDE1315E2F41F007BD992 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FDDE1215E2F41F007BD992 /* AppDelegate.m */; };
+		E7FDDE1615E2F41F007BD992 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FDDE1515E2F41F007BD992 /* ViewController.m */; };
+		E7FDDE1915E2F41F007BD992 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7FDDE1715E2F41F007BD992 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E7FDDDFE15E2F41F007BD992 /* MoveButtonTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoveButtonTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7FDDE0215E2F41F007BD992 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E7FDDE0415E2F41F007BD992 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E7FDDE0615E2F41F007BD992 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E7FDDE0A15E2F41F007BD992 /* MoveButtonTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoveButtonTest-Info.plist"; sourceTree = "<group>"; };
+		E7FDDE0C15E2F41F007BD992 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E7FDDE0E15E2F41F007BD992 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7FDDE1015E2F41F007BD992 /* MoveButtonTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MoveButtonTest-Prefix.pch"; sourceTree = "<group>"; };
+		E7FDDE1115E2F41F007BD992 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E7FDDE1215E2F41F007BD992 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E7FDDE1415E2F41F007BD992 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E7FDDE1515E2F41F007BD992 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E7FDDE1815E2F41F007BD992 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7FDDDFB15E2F41F007BD992 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7FDDE0315E2F41F007BD992 /* UIKit.framework in Frameworks */,
+				E7FDDE0515E2F41F007BD992 /* Foundation.framework in Frameworks */,
+				E7FDDE0715E2F41F007BD992 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7FDDDF315E2F41F007BD992 = {
+			isa = PBXGroup;
+			children = (
+				E7FDDE0815E2F41F007BD992 /* MoveButtonTest */,
+				E7FDDE0115E2F41F007BD992 /* Frameworks */,
+				E7FDDDFF15E2F41F007BD992 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7FDDDFF15E2F41F007BD992 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7FDDDFE15E2F41F007BD992 /* MoveButtonTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7FDDE0115E2F41F007BD992 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7FDDE0215E2F41F007BD992 /* UIKit.framework */,
+				E7FDDE0415E2F41F007BD992 /* Foundation.framework */,
+				E7FDDE0615E2F41F007BD992 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7FDDE0815E2F41F007BD992 /* MoveButtonTest */ = {
+			isa = PBXGroup;
+			children = (
+				E7FDDE1115E2F41F007BD992 /* AppDelegate.h */,
+				E7FDDE1215E2F41F007BD992 /* AppDelegate.m */,
+				E7FDDE1415E2F41F007BD992 /* ViewController.h */,
+				E7FDDE1515E2F41F007BD992 /* ViewController.m */,
+				E7FDDE1715E2F41F007BD992 /* ViewController.xib */,
+				E7FDDE0915E2F41F007BD992 /* Supporting Files */,
+			);
+			path = MoveButtonTest;
+			sourceTree = "<group>";
+		};
+		E7FDDE0915E2F41F007BD992 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7FDDE0A15E2F41F007BD992 /* MoveButtonTest-Info.plist */,
+				E7FDDE0B15E2F41F007BD992 /* InfoPlist.strings */,
+				E7FDDE0E15E2F41F007BD992 /* main.m */,
+				E7FDDE1015E2F41F007BD992 /* MoveButtonTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7FDDDFD15E2F41F007BD992 /* MoveButtonTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7FDDE1C15E2F41F007BD992 /* Build configuration list for PBXNativeTarget "MoveButtonTest" */;
+			buildPhases = (
+				E7FDDDFA15E2F41F007BD992 /* Sources */,
+				E7FDDDFB15E2F41F007BD992 /* Frameworks */,
+				E7FDDDFC15E2F41F007BD992 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoveButtonTest;
+			productName = MoveButtonTest;
+			productReference = E7FDDDFE15E2F41F007BD992 /* MoveButtonTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7FDDDF515E2F41F007BD992 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = wgdadmin;
+			};
+			buildConfigurationList = E7FDDDF815E2F41F007BD992 /* Build configuration list for PBXProject "MoveButtonTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E7FDDDF315E2F41F007BD992;
+			productRefGroup = E7FDDDFF15E2F41F007BD992 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7FDDDFD15E2F41F007BD992 /* MoveButtonTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7FDDDFC15E2F41F007BD992 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7FDDE0D15E2F41F007BD992 /* InfoPlist.strings in Resources */,
+				E7FDDE1915E2F41F007BD992 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7FDDDFA15E2F41F007BD992 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7FDDE0F15E2F41F007BD992 /* main.m in Sources */,
+				E7FDDE1315E2F41F007BD992 /* AppDelegate.m in Sources */,
+				E7FDDE1615E2F41F007BD992 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E7FDDE0B15E2F41F007BD992 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7FDDE0C15E2F41F007BD992 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E7FDDE1715E2F41F007BD992 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7FDDE1815E2F41F007BD992 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7FDDE1A15E2F41F007BD992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E7FDDE1B15E2F41F007BD992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7FDDE1D15E2F41F007BD992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoveButtonTest/MoveButtonTest-Prefix.pch";
+				INFOPLIST_FILE = "MoveButtonTest/MoveButtonTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E7FDDE1E15E2F41F007BD992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoveButtonTest/MoveButtonTest-Prefix.pch";
+				INFOPLIST_FILE = "MoveButtonTest/MoveButtonTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7FDDDF815E2F41F007BD992 /* Build configuration list for PBXProject "MoveButtonTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7FDDE1A15E2F41F007BD992 /* Debug */,
+				E7FDDE1B15E2F41F007BD992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7FDDE1C15E2F41F007BD992 /* Build configuration list for PBXNativeTarget "MoveButtonTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7FDDE1D15E2F41F007BD992 /* Debug */,
+				E7FDDE1E15E2F41F007BD992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7FDDDF515E2F41F007BD992 /* Project object */;
+}
