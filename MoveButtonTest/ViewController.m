@@ -21,7 +21,7 @@
     [sharp1 addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:sharp1];
     [sharp1 release];
-    [NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(move) userInfo:nil repeats:YES];
+    timer = [NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(move) userInfo:nil repeats:YES];
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
@@ -40,6 +40,16 @@
 -(void)click:(UIButton *)sender
 {
     NSLog(@"click");
+    static int a =0;
+    if(a%2 ==0)
+    {
+        [timer invalidate];
+    }
+    else
+    {
+        timer = [NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(move) userInfo:nil repeats:YES];
+    }
+    a++;
 }
 
 -(void)move

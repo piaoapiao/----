@@ -11,6 +11,7 @@
 @interface ViewController : UIViewController
 {
     UIButton *sharp1;
+    NSTimer  *timer;
     
 }
 @end
